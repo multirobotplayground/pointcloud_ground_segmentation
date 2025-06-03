@@ -1,0 +1,2 @@
+# pointcloud_ground_segmentation
+Ground segmentation from the RobustFieldAutonomyLab
