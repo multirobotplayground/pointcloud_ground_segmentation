@@ -1,0 +1,14 @@
+image_projection:
+  ros__parameters:
+    laser:
+      num_vertical_scans: 16
+      num_horizontal_scans: 1800
+      vertical_angle_bottom: -15.0
+      vertical_angle_top: 15.0
+      sensor_mount_angle: 0.0
+      ground_scan_index: 7
+
+    image_projection:
+      segment_valid_point_num: 5
+      segment_valid_line_num: 3
+      segment_theta: 60.0
