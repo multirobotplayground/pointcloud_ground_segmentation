@@ -1,4 +1,4 @@
-image_projection:
+pointcloud_ground_segmentation:
   ros__parameters:
     laser:
       num_vertical_scans: 16
