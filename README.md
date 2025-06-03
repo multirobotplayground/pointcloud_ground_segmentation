@@ -66,5 +66,4 @@ All parameters can be configured via a YAML configuration file or dynamically on
 
 ## License
 
-This project is licensed under the **BSD 3-Clause License (BSDv3)**.  
-See the [LICENSE](./LICENSE) file for full license text.
+This project is licensed under the [GPLv3 license](./LICENSE).
