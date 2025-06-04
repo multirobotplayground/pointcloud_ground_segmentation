@@ -1,27 +1,27 @@
 <?xml version="1.0"?>
-<package>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>cloud_msgs</name>
   <version>1.0.0</version>
-  <description>The cloud_msgs package contains messages.</description>
+  <description>ROS2 messages for pointclouds</description>
 
-  <maintainer email="xxx@xxx.xxx">Tixiao Shan</maintainer>
+  <maintainer email="eduardo.perdices@star-robotics.com">Eduardo Perdices</maintainer>
+
+  <author>Tixiao Shan</author>
+  <author>Eduardo Perdices</author>
 
   <license>BSD</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>geometry_msgs</build_depend>
-  <build_depend>std_msgs</build_depend>
-  <build_depend>message_runtime</build_depend>
-  <build_depend>message_generation</build_depend>
-  <build_depend>nav_msgs</build_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rosidl_default_generators</build_depend>
 
-  <run_depend>nav_msgs</run_depend>
-  <run_depend>message_generation</run_depend>
-  <run_depend>message_runtime</run_depend>
-  <run_depend>geometry_msgs</run_depend>
-  <run_depend>std_msgs</run_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+
+  <member_of_group>rosidl_interface_packages</member_of_group>
 
   <export>
-
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
